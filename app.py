@@ -8,10 +8,10 @@ sg.theme('reddit')
 tela_login = [
 
     [sg.Text('User')],
-    # key � o que permite receber informa��o/texto do usu�rio
+    # key permite receber informacao/texto do usuario
     [sg.Input(key='user')],
     [sg.Text('Password')],
-    # usamos password_char e '*' para o campo de senha n�o aparecer oq o usu�rio digitou
+    # usamos password_char e '*' para o campo de senha nao aparecer oq o usuario digitou
     [sg.Input(password_char='*', key='password')],
     [sg.Button('Submit')],
     [sg.Output(size = (43, 10))]
